@@ -1643,6 +1643,7 @@
                                         <div class="setting-label">
                                             <i>🎵</i> Музыка
                                         </div>
+                                        <div style="margin-top:6px; font-size:1.05rem; opacity:0.9;">Трек: <b>Static on the Radio</b></div>
                                         <div class="volume-controls">
                                             <label class="setting-toggle">
                                                 <input type="checkbox" id="musicToggle" checked>
@@ -1751,7 +1752,7 @@
     <div id="notificationContainer"></div>
     
     <audio id="backgroundMusic" loop>
-        <source src="https://voca.ro/1825ROw9joOA" type="audio/mpeg">
+        <source src="01 - Static on the Radio.mp3" type="audio/mpeg">
         Ваш браузер не поддерживает аудио элемент.
     </audio>
     
@@ -2018,7 +2019,7 @@
             if (audioInitialized) return;
             
             try {
-                const musicUrl = 'https://voca.ro/1825ROw9joOA';
+                const musicUrl = '01 - Static on the Radio.mp3';
                 backgroundMusicElement.src = musicUrl;
                 
                 updateAudioVolumes();
